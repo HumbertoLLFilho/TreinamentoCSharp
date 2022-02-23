@@ -1,0 +1,31 @@
+{
+   "Usuarios":[
+      {
+         "ID":"b3612a7b-60f3-4032-98b5-418a35ef0c78",
+         "Nome":"Humberto",
+         "Sobrenome":"Filho",
+         "Email":"humberto.filho@berger.com",
+         "Created":"2022-06-02 23:33:90",
+         "Updated":"2022-06-02 23:33:90",
+         "Pontos":1
+      },
+      {
+         "ID":"fdc58dd3-8e42-4cec-a94c-063fdf4fe452",
+         "Nome":"Anna",
+         "Sobrenome":"Julia",
+         "Email":"Ana.julia@berger.com",
+         "Created":"2022-07-02 23:33:90",
+         "Updated":null,
+         "Pontos":45875
+      },
+      {
+         "ID":"543d32fb-b825-4722-a531-4e31a2ca25d3",
+         "Nome":"Igor",
+         "Sobrenome":"Nascimento",
+         "Email":"Igor.Nascimento@berger.com",
+         "Created":"2022-08-02 23:33:90",
+         "Updated":null,
+         "Pontos":45875
+      }
+   ]
+}

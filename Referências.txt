@@ -1,0 +1,5 @@
+Entenda o JSON:
+	https://www.youtube.com/watch?v=iiADhChRriM
+
+Trabalhando com jsons:
+	https://www.newtonsoft.com/json/help/html/SerializingJSON.htm

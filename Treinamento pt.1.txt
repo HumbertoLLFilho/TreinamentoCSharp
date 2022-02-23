@@ -1,0 +1,45 @@
+Projeto deve conter pelo menos 3 camadas:
+	- Apresentação (Console ou AspNet)
+	- Aplicação
+	- Dominio
+
+Models:
+	- Admin:
+		string 		Nome
+		string 		Sobrenome
+		string 		Login
+		string 		Senha
+
+	- Usuario:
+		Guid 		ID
+		string 		Nome
+		string 		Sobrenome
+		string 		Email
+		double 		Dinheiro
+		DateTime 	Created
+		DateTime 	Updated
+		bool		Deleted
+		
+		Metodo para adicionar dinheiro diretamente na model
+		Metodo para sacar dinheiro diretamente na model
+			Todo saque tem 2% de taxa
+			Usuario não pode dever mais que 100 reais
+
+Ordenação de telas:
+
+	!!! TODAS OPERAÇÕES TERÃO QUE UTILIZAR DADOS DO JSON !!!
+	!!! TODAS OPERAÇÕES TERÃO QUE UTILIZAR DADOS DO JSON !!!
+	!!! TODAS OPERAÇÕES TERÃO QUE UTILIZAR DADOS DO JSON !!!
+
+	- Login de Admin (json separado com credenciais so dele)
+
+	- Home/opções
+		- Listagem de usuarios
+		- Adicionar/Update/Delete de usuario
+
+		Opcional:
+			Ordenação por nome/criação
+
+	- Detalhes de um usuario em especifico (Usando o ID)
+
+	- Mostrar usuarios com mais Dinheiro
